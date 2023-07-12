@@ -64,7 +64,7 @@ public class ResourceCentreTest {
 		assertEquals("Test that the Camcorder arraylist size is unchange.", 2, camcorderList.size());
 	}
 
-	@Test
+	@Test //ibnu,syaz,rou
 	public void testAddChromebook() {
 		//fail("Not yet implemented");
 		// write your code here 
@@ -107,7 +107,7 @@ public class ResourceCentreTest {
 		assertEquals("Test that the display is correct.", testOutput, allCamcorder);
 	}
 
-	@Test
+	@Test //ibnu,syaz,rou
 	public void testRetrieveAllChromebook() {
 		//fail("Not yet implemented");
 		// write your code here
@@ -142,7 +142,7 @@ public class ResourceCentreTest {
 		assertFalse("Test that the loan fails.", ok);
 	}
 
-	@Test
+	@Test //aloy,siak,jan
 	public void testDoLoanChromebook() {
 		//fail("Not yet implemented");
 		// write your code here
@@ -169,7 +169,7 @@ public class ResourceCentreTest {
 		assertFalse("Test the the return of CC0013 fails.", isReturned);	
 	}
 	
-	@Test
+	@Test //aloy,siak,jan
 	public void testDoReturnChromebook() {
 		//fail("Not yet implemented");
 		// write your code here
