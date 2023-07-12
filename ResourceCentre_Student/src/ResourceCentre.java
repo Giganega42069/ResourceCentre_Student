@@ -200,7 +200,7 @@ public class ResourceCentre {
 			return;
 		}
 		
-		chromebookList.add(cb);//remove this comment
+		chromebookList.add(cb);//remove this commen
 	}
 	
 	//================================= Option 3 Loan an item (CRUD - Update) =================================
