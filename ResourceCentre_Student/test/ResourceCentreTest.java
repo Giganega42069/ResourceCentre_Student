@@ -142,8 +142,8 @@ public class ResourceCentreTest {
         ResourceCentre.addChromebook(chromebookList, cb2);
         assertEquals("Test that Chromebook arraylist size is 2.", 2, chromebookList.size());
         allChromebook= ResourceCentre.retrieveAllChromebook(chromebookList);
-        testOutput = String.format("%-10s %-30s %-10s %-10s %-20d\n","CB0011", "My Google Chromebook 1st", "Yes", "", "MAC OS");
-        testOutput += String.format("%-10s %-30s %-10s %-10s %-20d\n","CB0012", "SAMSUNG Chromebook 4+", "Yes", "", "Win 10");
+        testOutput = String.format("%-10s %-30s %-10s %-10s %-20s\n","CB0011", "My Google Chromebook 1st", "Yes", "", "Mac OS");
+        testOutput += String.format("%-10s %-30s %-10s %-10s %-20s\n","CB0012", "SAMSUNG Chromebook 4+", "Yes", "", "Win 10");
         assertEquals("Test that the display is correct.", testOutput, allChromebook);
 
  
@@ -154,8 +154,8 @@ public class ResourceCentreTest {
         assertEquals("Test that Chromebook arraylist size is 2.", 3, chromebookList.size());
         assertFalse("Test that the last item in the arraylist is not available", chromebookList.get(2).getIsAvailable());
         allChromebook= ResourceCentre.retrieveAllChromebook(chromebookList);
-        testOutput = String.format("%-10s %-30s %-10s %-10s %-20d\n","CB0011", "My Google Chromebook 1st", "Yes", "", "MAC OS");
-        testOutput += String.format("%-10s %-30s %-10s %-10s %-20d\n","CB0012", "SAMSUNG Chromebook 4+", "Yes", "", "Win 10");
+        testOutput = String.format("%-10s %-30s %-10s %-10s %-20s\n","CB0011", "My Google Chromebook 1st", "Yes", "", "Mac OS");
+        testOutput += String.format("%-10s %-30s %-10s %-10s %-20s\n","CB0012", "SAMSUNG Chromebook 4+", "Yes", "", "Win 10");
         assertEquals("Test that the display is correct.", testOutput, allChromebook);
         
     }
