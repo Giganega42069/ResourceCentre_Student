@@ -15,6 +15,8 @@ private int opticalZoom;
 		String info = super.toString();
 		info += String.format("%-20d\n", opticalZoom);
 		return info;
+		
+		// plS OWKR BRUH CHICKEN NUGGETS
 	}
 }
 
