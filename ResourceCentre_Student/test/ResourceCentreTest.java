@@ -8,7 +8,7 @@ import org.junit.Test;
 // C206 AY2023 SEM1 - Eclipse 21-09 JDK16
 
 public class ResourceCentreTest {
-	// prepare test data
+	// prepare test data//
 	private Camcorder cc1;
 	private Camcorder cc2;
 	private Camcorder cc3;
